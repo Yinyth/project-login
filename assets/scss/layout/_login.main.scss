@@ -1,14 +1,15 @@
-.main{
+.login{
+	&__main{
 	width: auto;
 	height: 80vh;
 	background-image: url('../images/會員登入.jpg');
 	background-position: center top;
+	background-repeat: no-repeat;
 	background-color: #121212;
 	color: white;
+	}
 
-}
-
-.main-title {
+	&__main-title {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -34,59 +35,62 @@
 		transform: scale(1.02);
 		cursor: pointer;
 	}
-}
+	}
 
-.main-input-text, .main-btn {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	height: 50px;
-	border: 1px solid gray;
-	border-radius: 10px;
-	margin-bottom: 20px;
-
-	span {
+	&__main-input-text, &__main-btn {
 		display: flex;
 		align-items: center;
-		justify-content: flex-start;
+		justify-content: center;
+		text-align: center;
+		height: 50px;
+		border: 1px solid gray;
+		border-radius: 10px;
+		margin-bottom: 20px;
 
-		p {
-			font-size: x-large;
-			margin-right: 20px;
+		span {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+
+			p {
+				font-size: x-large;
+				margin-right: 20px;
+			}
+
+			hr{
+				height: 30px;
+				width: 1px;
+				border-width:0;
+				color:gray;
+				background-color:gray;
+				margin-right: 20px;
+			}
 		}
 
-		hr{
-			height: 30px;
-			width: 1px;
-			border-width:0;
-			color:gray;
-			background-color:gray;
-			margin-right: 20px;
+		input {
+			background: none;
+			border: none;
+			font-size: large;
+			width: 150px;
+			color: white;
 		}
 	}
 
-	input {
-		background: none;
-		border: none;
-		font-size: large;
-		width: 150px;
+	&__main-input {
+		width: 50%;
+		margin-bottom: 20px;
 	}
-}
-.main-input {
-	width: 50%;
-	margin-bottom: 20px;
-}
 
-.main-add {
-	display: flex;
-	justify-content: flex-end;
-	width: 50%;
+	&__main-add {
+		display: flex;
+		justify-content: flex-end;
+		width: 50%;
 
-	a {
-		color: #868686;
-		text-decoration:none;
-		border-bottom: 1px solid #868686;
-		margin-left: 20px;
+		a {
+			color: #868686;
+			text-decoration:none;
+			border-bottom: 1px solid #868686;
+			margin-left: 20px;
+		}
 	}
 }
