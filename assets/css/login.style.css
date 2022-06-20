@@ -179,7 +179,7 @@ body {
   border-bottom: 1px solid white;
 }
 
-.main {
+.login__main {
   width: auto;
   height: 80vh;
   background-image: url("../images/會員登入.jpg");
@@ -189,7 +189,7 @@ body {
   color: white;
 }
 
-.main-title {
+.login__main-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -202,30 +202,30 @@ body {
           align-items: center;
 }
 
-.main-title h1 {
+.login__main-title h1 {
   font-size: xx-large;
   text-align: center;
   margin-top: 130px;
   margin-bottom: 100px;
 }
 
-.main-title button {
+.login__main-title button {
   background-color: #494949;
   width: 50%;
 }
 
-.main-title button p {
+.login__main-title button p {
   font-size: x-large;
   color: white;
 }
 
-.main-title button:hover {
+.login__main-title button:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
   cursor: pointer;
 }
 
-.main-input-text, .main-btn {
+.login__main-input-text, .login__main-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,7 +242,7 @@ body {
   margin-bottom: 20px;
 }
 
-.main-input-text span, .main-btn span {
+.login__main-input-text span, .login__main-btn span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,12 +254,12 @@ body {
           justify-content: flex-start;
 }
 
-.main-input-text span p, .main-btn span p {
+.login__main-input-text span p, .login__main-btn span p {
   font-size: x-large;
   margin-right: 20px;
 }
 
-.main-input-text span hr, .main-btn span hr {
+.login__main-input-text span hr, .login__main-btn span hr {
   height: 30px;
   width: 1px;
   border-width: 0;
@@ -268,7 +268,7 @@ body {
   margin-right: 20px;
 }
 
-.main-input-text input, .main-btn input {
+.login__main-input-text input, .login__main-btn input {
   background: none;
   border: none;
   font-size: large;
@@ -276,12 +276,12 @@ body {
   color: white;
 }
 
-.main-input {
+.login__main-input {
   width: 50%;
   margin-bottom: 20px;
 }
 
-.main-add {
+.login__main-add {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -291,7 +291,7 @@ body {
   width: 50%;
 }
 
-.main-add a {
+.login__main-add a {
   color: #868686;
   text-decoration: none;
   border-bottom: 1px solid #868686;
