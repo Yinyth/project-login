@@ -181,7 +181,7 @@ body {
 
 .main {
   width: auto;
-  height: 100vh;
+  height: 80vh;
   background-image: url("../images/會員登入.jpg");
   background-position: center top;
   background-color: #121212;
@@ -210,7 +210,7 @@ body {
 
 .main-title button {
   background-color: #494949;
-  width: 25%;
+  width: 50%;
 }
 
 .main-title button p {
@@ -221,6 +221,7 @@ body {
 .main-title button:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
+  cursor: pointer;
 }
 
 .main-input-text, .main-btn {
@@ -275,6 +276,23 @@ body {
 
 .main-input {
   width: 50%;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.main-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 50%;
+}
+
+.main-add a {
+  color: #868686;
+  text-decoration: none;
+  border-bottom: 1px solid #868686;
+  margin-left: 20px;
 }
 /*# sourceMappingURL=login.style.css.map */
